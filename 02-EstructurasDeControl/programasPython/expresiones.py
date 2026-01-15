@@ -10,6 +10,9 @@ divEntera = 15 // 2     # División entera
 mod = 10 % 2
 potencia = 4 ** 2       # Potencia
 
+
+# Interpolación de Strings
+
 """
 salida = f"La suma es: {suma}"
 print(salida)
@@ -21,7 +24,11 @@ salida = 'La "multiplicación" es:'
 print(salida, multi)
 """
 
-# Interpolación de Strings
+# Expresiones Relacionales
+
+valor = 4 + 5 > 23;
+print(valor)
+
 
 salida = f"""
 ===== Expresiones Aritméticas =====
