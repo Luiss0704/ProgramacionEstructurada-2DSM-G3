@@ -28,7 +28,7 @@ public class OperacionesBasicas {
                 valor1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Introduce el primer valor:", "Suma", JOptionPane.QUESTION_MESSAGE));
                 valor2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Introduce el segundo valor:", "Suma", JOptionPane.QUESTION_MESSAGE));
 
-            JOptionPane.showMessageDialog(null, "La suma de los valores es:\n" + valor1 + " + "  + valor2 + " = " + (valor1 + valor2), "SUMA", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "La suma de los valores es:\n" + valor1 + " + "  + valor2 + " = " + (valor1 + valor2), "SUMA", JOptionPane.INFORMATION_MESSAGE);
                 break;
 
             case "2":       // Resta

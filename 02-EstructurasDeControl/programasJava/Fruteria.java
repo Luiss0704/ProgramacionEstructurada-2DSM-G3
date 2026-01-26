@@ -41,7 +41,7 @@ public class Fruteria {
                 JOptionPane.showMessageDialog(null, "Número de kilos: " + numKilos + " kg\nPrecio por kilo:  $" + precioPorKilo + "\nSubtotal:  $" + subtotal + "\nDescuento:  $" + descuento + "\nTotal a pagar:  $" + precioTotal, "Frutería", JOptionPane.INFORMATION_MESSAGE);
             } else if (numKilos > 10) {
                 subtotal = precioPorKilo * numKilos;
-                descuento = (subtotal * 0.20);
+                descuento = (subtotal * 0.2);
                 precioTotal = subtotal - descuento;
 
                 JOptionPane.showMessageDialog(null, "Número de kilos: " + numKilos + " kg\nPrecio por kilo:  $" + precioPorKilo + "\nSubtotal:  $" + subtotal + "\nDescuento:  $" + descuento + "\nTotal a pagar:  $" + precioTotal, "Frutería", JOptionPane.INFORMATION_MESSAGE);
